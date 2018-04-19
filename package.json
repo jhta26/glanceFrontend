@@ -7,18 +7,25 @@
     "test": "jest"
   },
   "dependencies": {
+    "@mapbox/polyline": "^0.2.0",
     "isomorphic-fetch": "^2.2.1",
     "jest-fetch-mock": "^1.5.0",
     "jwt-decode": "^2.2.0",
+    "lodash.filter": "^4.6.0",
+    "lodash.sortby": "^4.7.0",
+    "lodash.uniq": "^4.5.0",
     "moment": "^2.22.1",
+    "moment-timer": "^1.2.1",
     "native-base": "^2.4.2",
     "react": "16.0.0",
     "react-native": "^0.50.4",
     "react-native-datepicker": "^1.6.0",
     "react-native-geo-fencing": "^0.1.0",
     "react-native-geocoding": "^0.3.0",
+    "react-native-google-places-autocomplete": "^1.3.6",
     "react-native-maps": "^0.15.3",
     "react-native-router-flux": "^4.0.0-beta.28",
+    "react-native-streetview": "^0.1.4",
     "react-redux": "^5.0.7",
     "recompose": "^0.26.0",
     "redux": "^4.0.0",
@@ -30,7 +37,8 @@
     "babel-jest": "22.4.3",
     "babel-preset-react-native": "4.0.0",
     "jest": "22.4.3",
-    "react-test-renderer": "16.0.0"
+    "react-test-renderer": "16.0.0",
+    "remote-redux-devtools": "^0.5.12"
   },
   "jest": {
     "preset": "react-native"
