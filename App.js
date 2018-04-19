@@ -117,7 +117,7 @@ export default class App extends Component {
                 title="CreateReqSearch"
                 hideNavBar
               />
-                   <Scene
+              <Scene
                 key="UPDATE"
                 component={UpdateMeetupComponentContainer}
                 title="Update"
