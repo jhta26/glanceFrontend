@@ -16,6 +16,7 @@ function mapDispatchToProps(dispatch, ownProps) {
     return {
         onMount: () => dispatch(GetAllUsersProcess()),
         onCreateParts: info => {
+            
             for (i = 0; i < info.users.length; i++) {
                 dispatch(CreateParticipantsProcess(info.users[i]));
             }

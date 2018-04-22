@@ -29,7 +29,6 @@ function mapDispatchToProps(dispatch, ownProps) {
 
         onSearch: () => dispatch({ type: 'GO_TO_SEARCH' }),
         storeLocation: location => {
-            console.log('container>>>>>>>>>>>>', location)
             dispatch({ type: 'STORE_LOCATION', location: location })
         },
         onStoring: parts => {

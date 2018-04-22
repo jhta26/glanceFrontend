@@ -150,7 +150,7 @@ export default class CreateRequestComponent extends Component {
       });
     });
     this.refs.map.fitToElements(true);
-    console.log(this.state);
+    
   }
 
   componentWillUnmount() {
