@@ -650,15 +650,15 @@ export default class MainScreenComponent extends Component {
                 alignItems: 'center',
                 justifyContent: 'space-around',
                 height: 3,
-
                 padding: 10
               }}>
               <View
                 style={{
-                  borderWidth: 1,
-                  borderColor: 'blue',
+                  
                   backgroundColor: 'white',
                   padding: 6,
+                  margin:1,
+                  width:'50%',
                   flexDirection: 'row'
                 }}>
                 <TouchableOpacity
@@ -673,10 +673,11 @@ export default class MainScreenComponent extends Component {
               </View>
               <View
                 style={{
-                  borderWidth: 1,
-                  borderColor: 'blue',
+                  
                   backgroundColor: 'white',
                   padding: 6,
+                  margin:1,
+                  width:'50%',
                   flexDirection: 'row'
                 }}>
                 <TouchableOpacity
