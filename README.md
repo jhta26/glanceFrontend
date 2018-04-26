@@ -18,7 +18,7 @@ Coordination platform for meetups and appointments by seeing other users’ loca
 
 ## Work In Progress
 
-Glance was a three week project.  I'm still working on it in hopes of getting everything working by June 2018.
+Glance was a three week project.  I'm still working on it with the goal of getting it on the app store by July 2018.
 
 To-Do List
 
